@@ -1,0 +1,80 @@
+{
+  "id": "nodejs.config.sso-ebay.common",
+  "configbean": true,
+  "alias": "nodejs.config.sso-ebay.common",
+  "group": "nodejs.config",
+  "attributes": [
+    {
+      "name": "sso-ebay___impersonateAs___qid",
+      "value": "",
+      "defaultValue": "Q10110000",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "sso-ebay___impersonateAs___type",
+      "value": "",
+      "defaultValue": "Employee",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "sso-ebay___impersonateAs___corpid",
+      "value": "",
+      "defaultValue": "johndoe",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "sso-ebay___impersonateAs___firstname",
+      "value": "",
+      "defaultValue": "John",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "sso-ebay___impersonateAs___lastname",
+      "value": "",
+      "defaultValue": "Doe",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "sso-ebay___impersonateAs___email",
+      "value": "",
+      "defaultValue": "johndoe@ebay.com",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "sso-ebay___impersonateAs___displayname",
+      "value": "",
+      "defaultValue": "Doe, John",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "sso-ebay___enableImpersonation",
+      "value": "",
+      "defaultValue": "false",
+      "type": "boolean",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "sso-ebay___refreshCertificates",
+      "value": "",
+      "defaultValue": "0",
+      "type": "integer",
+      "readable": true,
+      "writable": true
+    }
+  ]
+}

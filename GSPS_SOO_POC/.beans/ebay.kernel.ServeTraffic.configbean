@@ -1,0 +1,18 @@
+{
+  "configbean": true,
+  "id": "ebay.kernel.ServeTraffic",
+  "alias": "ebay.kernel.ecv",
+  "group": "ebay.kernel",
+  "desc": "Serve Traffic to this server.",
+  "attributes": [
+    {
+      "name": "Value",
+      "desc": "Serve Traffic to this server.",
+      "type": "string",
+      "value": "",
+      "defaultValue": "TrafficEnabled",
+      "readable": "true",
+      "writable": "true"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "nodejs.config.esams-consumer-ebay.esamsConsumerSvc",
+  "configbean": true,
+  "alias": "nodejs.config.esams-consumer-ebay.esamsConsumerSvc",
+  "group": "nodejs.config",
+  "attributes": [
+    {
+      "name": "socketTimeout",
+      "value": "",
+      "defaultValue": 1000,
+      "type": "integer",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "namespaces",
+      "value": "",
+      "defaultValue": true,
+      "type": "boolean",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "markdown-threshold",
+      "value": "",
+      "defaultValue": 20,
+      "type": "integer",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "retry",
+      "value": "",
+      "defaultValue": 1,
+      "type": "integer",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "force-retry",
+      "value": "",
+      "defaultValue": true,
+      "type": "boolean",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "protocol",
+      "value": "",
+      "defaultValue": "https:",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "hostname",
+      "value": "",
+      "defaultValue": "esams.qa.ebay.com",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "basepath",
+      "value": "",
+      "defaultValue": "/ws/spf",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "method",
+      "value": "",
+      "defaultValue": "POST",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "headers___X-EBAY-SOA-SERVICE-VERSION",
+      "value": "",
+      "defaultValue": "1.0.0",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "instruments",
+      "value": "",
+      "defaultValue": [
+        "soap",
+        "error-handler",
+        "retry",
+        "config-bean",
+        "cache",
+        "cal"
+      ],
+      "type": "array",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "wsdl",
+      "value": "",
+      "defaultValue": "C:\\GlobalEquityTracker\\node_modules\\sso-ebay\\node_modules\\esams-consumer-ebay\\config\\esamsService.wsdl",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "SVC_CHANNEL_STATUS",
+      "value": "APP_AUTO_MARK_DOWN",
+      "defaultValue": "MARK_UP",
+      "type": "string",
+      "readable": true,
+      "writable": true
+    },
+    {
+      "name": "debug",
+      "value": "",
+      "defaultValue": "false",
+      "type": "boolean",
+      "readable": true,
+      "writable": true
+    }
+  ]
+}
